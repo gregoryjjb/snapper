@@ -15,6 +15,7 @@ It does NOT support:
 	  relying on an external variable declaration or function call
 	* Private fields in structs (they will be skipped)
 	* Channels
+	* Probably more things that I'm forgetting right now
 
 Note that pointers to the same struct will be represented as two separately instantiated
 structs.
